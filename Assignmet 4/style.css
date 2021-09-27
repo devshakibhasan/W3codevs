@@ -1,0 +1,65 @@
+body {
+  background-color: rgb(205, 208, 219);
+  
+}
+#jj h1{
+  font-size: 50px;
+  background-color: hotpink;
+  color: aqua;
+}
+
+#div  {
+ background: url('/w3codevs.png') no-repeat  center/75%;
+}
+
+h1 {
+  text-align: center;
+  font-size: 30px;
+  color: rgb(24, 23, 23);
+
+}
+
+.kk {
+  margin: 70px 260px;
+
+}
+
+.div, .div5, .div4, .div3, .div2, .div1, .div0 {
+
+  height: 100px;
+  width: 300px;
+  margin: 10px;
+}
+.kk:hover .div, .kk:hover .div5, .kk:hover .div4, .kk:hover .div3, .kk:hover .div2, .kk:hover .div1, .kk:hover .div0 {
+  transform: translateX(200px);
+}
+
+.div0 {
+  background: PaleTurquoise;
+  transition: all 1.5s linear;
+}
+
+.div1 {
+  background: salmon;
+  transition: all 1.5s ease;
+}
+
+.div2 {
+  background: lightskyblue;
+  transition: all 1.5s ease-in;
+}
+
+.div3 {
+  background: khaki;
+  transition: all 1.5s ease-out;
+}
+
+.div4 {
+  background: mediumturquoise;
+  transition: all 1.5s ease-in-out;
+}
+
+.div5 {
+  background: thistle;
+  transition: all 1.5s cubic-bezier(0, 1, 0.98, 0);
+} 

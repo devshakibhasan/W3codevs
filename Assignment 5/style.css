@@ -1,0 +1,51 @@
+body{
+    background-color: rgb(68, 69, 70);
+    margin: 0;
+    padding: 0;
+}
+
+
+h1 {
+    background-color: aqua;
+    text-align: center;
+}
+h2 {
+    background-color: rgb(139, 84, 74);
+    text-align: center;
+    color: rgb(15, 14, 14);
+}
+.container {
+   
+display: inline-grid;
+width: 100%;
+color: white;
+align-items: center;
+
+}
+
+.one {
+    background-color: burlywood;
+    height: 400px;
+    width: 100%;
+    margin: 50px 50px;
+    border: 5px solid red;
+    overflow: scroll;
+    }
+.two {
+    background-color: rgb(26, 76, 78);
+    height: 400px;
+    margin: 50px 50px;
+    border: 5px solid red;
+    overflow: hidden;
+}
+.three {
+    background-color: rgb(49, 41, 31);
+    height: 400px;
+    margin: 50px 50px;
+    border: 5px solid red;
+    overflow: auto;
+    margin-left: 40px;
+}
+.grid {
+    color: white;
+}

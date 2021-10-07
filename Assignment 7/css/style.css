@@ -1,0 +1,57 @@
+body {
+  background: linear-gradient(-45deg, #ffff, #ffff, #23a6d5, #23d5ab);
+}
+
+#form {
+  background: rgb(242, 240, 243);
+  width: 800px;
+  color: rgb(8, 8, 8);
+  width: 700px;
+  margin: 0 auto;
+  font-size: 20px;
+  padding: 20px;
+}
+select {
+  font-size: 15px;
+}
+h1 {
+  text-align: center;
+  border: 2px solid gold;
+  background: linear-gradient(
+    -45deg,
+    #ffff,
+    rgb(140, 184, 151),
+    #23a6d5,
+    #23d5ab
+  );
+  color: rgb(113, 40, 180);
+}
+input {
+  height: 15px;
+  width: 200px;
+  font-size: 15px;
+  padding: 5px 15px;
+}
+label {
+ 
+  display: inline-block;
+  width: 250px;
+  color: #777777;
+  
+}
+div {
+  margin-bottom: 5px;
+}
+.sub {
+  height: 40px;
+  width: 100px;
+  font-size: 27px;
+  background: rgb(124, 63, 149);
+  color: honeydew;
+}
+.res {
+  height: 40px;
+  width: 100px;
+  font-size: 27px;
+  background: greenyellow;
+}

@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <section id="form">
+      <h1>Registration Form</h1>
+      <form action="">
+        <h3>Login informations (* required fields)</h3>
+        <div>
+          <label for="">Email *</label>
+          <input type="text" /> <br /><br />
+        </div>
+
+        <div>
+          <label for="">Password *</label>
+          <input type="text" /> (min 6 chars)
+        </div>
+
+        <hr />
+
+        <h3>Personal information</h3>
+        <div>
+          <label for="">title *</label>
+          <select name="title" id="">
+            <option value="">Mr</option>
+            <option value="">Mrs</option>
+            <option value="">Miss</option>
+            <option value="">Ms</option>
+          </select>
+          <br /><br />
+        </div>
+
+        <div>
+          <label for=""> First name *</label>
+          <input type="text" /><br /><br />
+        </div>
+
+        <div>
+          <label for=""> Last name *</label>
+          <input type="text" /><br /><br />
+        </div>
+
+        <div>
+          <label for="">Age </label>
+          <select name="title" id="">
+            <option value="">< 25</option>
+            <option value="">25-30</option>
+            <option value="">31-35</option>
+            <option value="">36-45</option>
+            <option value="">36-45</option>
+            <option value="">46-54</option>
+            <option value="">56+</option>
+          </select>
+          <br /><br />
+        </div>
+
+        <div>
+          <label for="">Town/City *</label>
+          <input type="text" /><br /><br />
+        </div>
+
+        <div>
+          <label for="">Country *</label>
+          <select name="title" id="">
+            <option value="">Bangladesh</option>
+            <option value="">Afghanistan</option>
+            <option value="">Albania</option>
+            <option value="">Argentina</option>
+            <option value="">Brazil</option>
+            <option value="">Canada</option>
+            <option value="">Estonia</option>
+            <option value="">Fiji</option>
+          </select>
+          <br /><br />
+        </div>
+
+        <div>
+          <label for="">Town/City *</label>
+          <input type="text" /><br /><br />
+        </div>
+
+        <div>
+          <label for="">Division</label>
+          <select name="title" id="">
+            <option value="">Dhaka</option>
+            <option value="">Chittagong</option>
+            <option value="">Barisal</option>
+            <option value="">Khulna</option>
+            <option value="">Mymensingh</option>
+            <option value="">Rajshahi</option>
+            <option value="">Rangpur</option>
+            <option value="">Sylhet</option>
+          </select>
+          <br /><br />
+        </div>
+
+        <div>
+          <label for="">Zip/Post Code</label>
+          <input
+            type="text"
+            pattern="[0-9]{5}"
+            title="Five digit zip code"
+          /><br /><br />
+        </div>
+
+        <div>
+          <label for="">Mobile</label>
+          <input
+            type="tel"
+            id="phone"
+            name="phone"
+            pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"
+          /><br /><br />
+        </div>
+
+        <hr />
+
+        <h3>Job informations</h3>
+
+        <div>
+          <label for="">Current job title *</label>
+          <input type="text" /><br /><br />
+        </div>
+
+        <div>
+          <label for="">Job term</label>
+          <select name="title" id="">
+            <option value="">Permanent</option>
+            <option value="">Intern</option>
+            <option value="">Temp/Contract</option>
+            <option value="">Either</option>
+          </select>
+          <br /><br />
+        </div>
+
+        <div>
+          <label for="">Willing to work in a different country : </label> 
+          <select name="title" id="">
+            <option value="">Own Country</option>
+            <option value="">Us only</option>
+            <option value="">Europe only</option>
+            <option value="">Anywhare</option>
+          </select>
+          <br /><br />
+        </div>
+
+        <div>
+          <label for="">  <span>When will you be available for work?</span>  </label> 
+          <select name="title" id="">
+            <option value="">Immediately</option>
+            <option value="">Within a month</option>
+            <option value="">Within two month</option>
+            <option value="">Within three month</option>
+            <option value="">>3months</option>
+          </select>
+          <br /><br />
+        </div>
+
+        <div>
+            
+          <label for="">Industry</label>
+          <select name="" id="" multiple="">
+            <option value="Civil Agencies/International Organizations">
+              Civil Agencies/International Organizations
+            </option>
+            <option value="Satellite Manufacturers and Subcontractors">
+              Satellite Manufacturers and Subcontractors
+            </option>
+            <option value="Satellite Operators">Satellite Operators</option>
+            <option value="Ground Systems, Software and Equipment">
+              Ground Systems, Software and Equipment
+            </option>
+            <option value="Launch Systems">Launch Systems</option>
+            <option value="Business Services">Business Services</option>
+            <option value="Consulting/Engineering Services">
+              Consulting/Engineering Services
+            </option>
+            <option value="Space Tourism">Space Tourism</option></select
+          ><br /><br />
+        </div>
+
+        <div>
+          <label for="">Keywords best describing your skills and experience :</label><br>
+          <textarea name="textarea" id="" cols="30" rows="10"></textarea>
+          <br /><br />
+        </div>
+
+        <label for=""
+          >Upload CV<br /><br />
+          <input type="file" /> </label
+        ><br /><br />
+
+        <input type="submit" class="sub" />
+
+        <input type="reset" class="res" />
+      </form>
+    </section>
+  </body>
+</html>
